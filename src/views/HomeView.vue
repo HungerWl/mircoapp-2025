@@ -1,18 +1,18 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+  <div>
+    <!-- <h1>子应用👇</h1>
+    <micro-app
+      name="my-app"
+      url=" http://localhost:5173/"
+      iframe
+      style="width: 100%; height: 60vh; overflow: auto"
+    ></micro-app> -->
   </div>
 </template>
-
 <script>
 // @ is an alias to /src
-import HelloWorld from "@/components/HelloWorld.vue";
 
 export default {
   name: "HomeView",
-  components: {
-    HelloWorld,
-  },
 };
 </script>

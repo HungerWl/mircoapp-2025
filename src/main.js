@@ -2,4 +2,10 @@ import { createApp } from "vue";
 import App from "./App.vue";
 import router from "./router";
 
-createApp(App).use(router).mount("#app");
+// mircoApp 导入
+import microApp from "@micro-zoe/micro-app";
+microApp.start();
+
+const app = createApp(App);
+
+app.use(router).mount("#app");
