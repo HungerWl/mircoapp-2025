@@ -4,4 +4,8 @@
   </div>
 </template>
 
-<style lang="stylus"></style>
+<style>
+.root {
+  font-family: "Google Sans Flex", -apple-system, BlinkMacSystemFont, sans-serif;
+}
+</style>

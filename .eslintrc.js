@@ -27,5 +27,8 @@ module.exports = {
     "no-console": process.env.NODE_ENV === "production" ? "warn" : "off",
     // 控制 debugger 的使用，在生产环境下发出警告，非生产环境下不做限制
     "no-debugger": process.env.NODE_ENV === "production" ? "warn" : "off",
+    // 关闭 Vue 多单词组件名规则，允许使用单单词命名组件
+    "vue/multi-word-component-names": "off",
+    "no-unused-vars": "off", // 完全关闭未使用变量的检查
   },
 };
